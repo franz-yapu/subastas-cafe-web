@@ -4,7 +4,7 @@ Aplicación web de una **plataforma de subastas en línea de café de especialid
 real. Los compradores siguen la subasta en vivo y pujan desde el navegador (también desde el móvil); el
 administrador gestiona subastas, lotes, vendedores, usuarios y la imagen de marca.
 
-API: [`franz-yapu/backend-c`](https://github.com/franz-yapu/backend-c)
+API: [`franz-yapu/subastas-cafe-api`](https://github.com/franz-yapu/subastas-cafe-api)
 
 ## Qué hace
 
@@ -31,7 +31,7 @@ socket.io-client · ngx-translate (español/inglés) · Chart.js · Nginx · Doc
 
 ## Puesta en marcha
 
-Requisitos: Node 20+ y la [API](https://github.com/franz-yapu/backend-c) corriendo.
+Requisitos: Node 20+ y la [API](https://github.com/franz-yapu/subastas-cafe-api) corriendo.
 
 ```bash
 npm install
