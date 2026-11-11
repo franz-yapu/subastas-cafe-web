@@ -2,7 +2,7 @@
 
 Aplicación web de una **plataforma de subastas en línea de café de especialidad** con pujas en tiempo
 real. Los compradores siguen la subasta en vivo y pujan desde el navegador (también desde el móvil); el
-administrador gestiona subastas, lotes, vendedores, usuarios y la imagen de marca de la institución.
+administrador gestiona subastas, lotes, vendedores, usuarios y la imagen de marca.
 
 API: [`franz-yapu/backend-c`](https://github.com/franz-yapu/backend-c)
 
@@ -17,7 +17,7 @@ API: [`franz-yapu/backend-c`](https://github.com/franz-yapu/backend-c)
 **Para el administrador**
 - Panel con indicadores y gráficas (Chart.js).
 - Gestión de subastas, lotes de café, vendedores, compradores y transacciones.
-- **Marca blanca**: colores, logo y nombre de la institución desde el panel. El contraste de los textos
+- **Marca blanca**: colores, logo y nombre desde el panel. El contraste de los textos
   se calcula automáticamente (WCAG) para que cualquier paleta siga siendo legible.
 - **Editor de traducciones**: cambia textos de la interfaz sin tocar código.
 
@@ -45,7 +45,7 @@ escritas en los componentes. Hay una configuración por despliegue:
 | --- | --- | --- |
 | `npm start` | `environment.ts` | desarrollo local |
 | `npm run buildlocal` | `environment.local.ts` | pruebas en red local |
-| `npm run buildcafe` | `environment.cafe.ts` | despliegue de una institución |
+| `npm run buildcafe` | `environment.cafe.ts` | despliegue alternativo |
 | `npm run buildprod` | `environment.prod.ts` | despliegue de producción |
 
 Ajusta las URLs de esos archivos a tu propio servidor antes de compilar.
@@ -82,8 +82,7 @@ public/assets/i18n/  es.json · en.json
 
 ## Estado
 
-Versión **1.0.1** (etiquetas `v1.0.0`, `v1.0.1`). Rama de trabajo actual: `main`. Las ramas `caritas`,
-`tecab`, `version_1` y `dev` conservan ediciones anteriores.
+Versión **1.0.1** (etiquetas `v1.0.0`, `v1.0.1`). Rama de trabajo actual: `main`.
 
 ## Licencia
 
